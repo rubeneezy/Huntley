@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html class="mdc-typography">
+  <head>
+    <title>Material Components for the web</title>
+    <link rel="stylesheet"
+          href="node_modules/material-components-web/dist/material-components-web.css">
+      <link rel="stylesheet" type="text/css" href="../css/main.css">
+  </head>
+  <body>
+  <header class="mdc-toolbar mdc-toolbar--fixed mdc-toolbar--waterfall">
+  <div class="mdc-toolbar__row">
+    <section class="mdc-toolbar__section mdc-toolbar__section--align-start">
+      <span class="mdc-toolbar__title">Next Dorm</span>
+    </section>
+      <section class="mdc-toolbar__section mdc-toolbar__section--align-end" >
+      <nav id="basic-tab-bar" class="mdc-tab-bar" data-mdc-auto-init="MDCTabBar">
+          <a class="mdc-tab mdc-tab--active" href="#one">Buy</a>
+          <a class="mdc-tab" href="#two">Sell</a>
+          <span class="mdc-tab-bar__indicator"></span>
+        </nav>
+    </section>
+  </div>
+</header>
+<main class="mdc-toolbar-fixed-adjust">
+    <h2 class="mdc-typography--display1">NEXT DORM LOGO HERE</h2>
+      
+      <div class="mdc-textfield mdc-textfield--box mdc-textfield--fullwidth"
+           data-mdc-auto-init="MDCTextfield">
+        <input type="text" 
+               id="tf-box" 
+               class="mdc-textfield__input" 
+               placeholder="What textbook are you looking for?"
+               >
+          
+    </div>
+</main>
+      <script src="node_modules/material-components-web/dist/material-components-web.js"></script>
+    <script>
+        mdc.autoInit()</script>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+.my-modified-toolbar-section {
+  position: absolute;
+  right: 0;
+  bottom: -16px;
+}
+
+[dir="rtl"] .my-modified-toolbar-section {
+  right: auto;
+  left: 0;
+}
+
+h2{
+    text-align: center;
+    margin-top: 250px;
+}
+
+.mdc-textfield{
+    padding-left: 20px;
+}
